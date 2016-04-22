@@ -37,6 +37,9 @@
 /** The GPS L1 center frequency in Hz. */
 #define GPS_L1_HZ 1.57542e9
 
+/** The GPS L2 center frequency in Hz. */
+#define GPS_L2_HZ 1.22760e9
+
 /** Earth's rotation rate as defined in the ICD in rad / s
  * \note This is actually not identical to the usual WGS84 definition. */
 #define GPS_OMEGAE_DOT 7.2921151467e-5
@@ -69,6 +72,12 @@
 
 /** GPS C/A code chipping rate in Hz. */
 #define GPS_CA_CHIPPING_RATE 1.023e6
+
+/** GPS L1 C/A chips number */
+#define GPS_L1CA_CHIPS_NUM 1023
+
+/** GPS L2 CM chips number */
+#define GPS_L2CM_CHIPS_NUM 10230
 
 /* \} */
 
